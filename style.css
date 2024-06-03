@@ -1,0 +1,95 @@
+body {
+  background: rgb(125, 189, 143);
+  overflow: clip;
+}
+
+
+h1 {
+  margin: 0;
+  text-align: center;
+  color: rgb(13, 62, 36);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2 {
+  font-size: larger;
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+}
+
+#naam{
+  width: 10em;
+  text-align: center;
+  border-radius: 10em;
+  margin-right: 0.3em;
+}
+
+#button {
+  padding: 0 1em;
+  border-radius: 5em;
+  background-color: rgb(26, 83, 26);
+  color: azure;
+}
+
+progress {
+  accent-color: green;
+  width: 50em;
+  padding: 1.5em;
+  display: block;
+  margin: auto;
+}
+
+.container_naam {
+  display: flex;
+  justify-content: center;
+  margin: 0.4em;
+}
+
+img {
+  width: 25em;
+  display: block;
+  margin: auto;
+}
+
+#bar.groen {
+  accent-color: rgb(77, 127, 39);
+}
+
+#bar.oranje {
+  accent-color: rgb(204 103 2);
+}
+
+#bar.oranjerood {
+  accent-color: rgb(184, 58, 4);
+}
+
+.container_health {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 9em;
+}
+
+.knop {
+  background: rgb(94, 150, 100);
+  margin: 0.2em 0.6em;
+  padding: 0.5em 2em;
+  padding-top: 1em;
+  text-align: center;
+  border-radius: 1em;
+}
+
+.knop img{
+  width: 6em;
+}
+
+#water {
+  position: absolute;
+  top: 100vh;
+  transition: all 1s;
+  width: 100%;
+}
+
+#water.omhoog {
+  top: 0;
+}
